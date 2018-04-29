@@ -14,7 +14,9 @@
     }
 
     function populateData(){
-      
+      for (i in mission.battlefield){
+        $('#missionBattlefield').append("<p>"+mission.battlefield[i]+"</p>");
+      }
     }
 
 })();

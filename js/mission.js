@@ -1,7 +1,7 @@
 (function(){
   $( document ).ready(init);
 
-    var mission = new object;
+    var mission;
 
     function init (){
       getMissionData();

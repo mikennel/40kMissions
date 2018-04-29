@@ -1,13 +1,20 @@
 (function(){
   $( document ).ready(init);
 
+    var mission = new object;
+
     function init (){
-      $.getJSON("../missionJSON/ewBRB1.json", function (data) {
-        $.each(data, function (index, value) {
-           console.log("entire JSON = "+value);
-        });
-        console.log("title = ");
-      });
+      getMissionData();
+      populateData();
+    }
+
+    function getMissionData(){
+      var jsonFetch = $.getJSON("./missionJSON/ewBRB1.json");
+      mission = JSON.parse(jsonFetch.responseText);
+    }
+
+    function populateData(){
+      
     }
 
 })();

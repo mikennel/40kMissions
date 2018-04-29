@@ -9,3 +9,11 @@ body{
 h2{
   font-weight: bold;
 }
+
+.missionBtn{
+  margin-bottom: 2em;
+}
+
+.startMissionBtn{
+  height: 3.5em !important;
+}

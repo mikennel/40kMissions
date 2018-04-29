@@ -21,16 +21,20 @@
     <h5>Choose Mission Type:</h5>
   </div>
   <div class="row">
-    <div class="col s6">
-      <a id="EternalWarBtn" class="waves-effect waves-light btn missTypeBtn">
-        Eternal War
-      </a>
-    </div>
-    <div class="col s6">
-      <a id="MaelstromBtn" class="waves-effect waves-light btn missTypeBtn">
-        Maelstrom
-      </a>
-    </div>
+    <form action="">
+      <div class="col s6">
+        <label>
+          <input name="missionType" type="radio" checked />
+          <span>Eternal War</span>
+        </label>
+      </div>
+      <div class="col s6">
+        <label>
+          <input name="missionType" type="radio" />
+          <span>Maelstrom</span>
+        </label>
+      </div>
+    </form>
   </div>
 </div>
 <div class="container">
@@ -40,14 +44,16 @@
     </div>
     <div class="row">
       <div class="col s6">
-        <a id="40kSourceBook" class="waves-effect waves-light btn missSourceBtn">
-          40k Rule Book
-        </a>
+        <label>
+          <input name="missionSource" type="radio" checked />
+          <span>40k Rule Book</span>
+        </label>
       </div>
       <div class="col s6">
-        <a id="ChapAppSourceBook" class="waves-effect waves-light btn missSourceBtn">
-          Chapter Approved 2017
-        </a>
+        <label>
+          <input name="missionSource" type="radio" />
+          <span>Chapter Approved 2017</span>
+        </label>
       </div>
     </div>
   </div>
@@ -58,26 +64,37 @@
       <h5>Choose Mission:</h5>
     </div>
     <div class="col s6">
-      <a class="waves-effect waves-light btn missionBtn">
-        Mission 1
-      </a><br>
-      <a class="waves-effect waves-light btn missionBtn">
-        Mission 2
-      </a><br>
-      <a class="waves-effect waves-light btn missionBtn">
-        Mission 3
-      </a><br>
+      <label>
+        <input name="missionNumber" type="radio" checked />
+        <span>Mission 1</span>
+      </label>
+      <br>
+      <label>
+        <input name="missionNumber" type="radio" />
+        <span>Mission 2</span>
+      </label>
+      <br>
+      <label>
+        <input name="missionNumber" type="radio" />
+        <span>Mission 3</span>
+      </label>
+      <br>
     </div>
     <div class="col s6">
-      <a class="waves-effect waves-light btn missionBtn">
-        Mission 4
-      </a><br>
-      <a class="waves-effect waves-light btn missionBtn">
-        Mission 5
-      </a><br>
-      <a class="waves-effect waves-light btn missionBtn">
-        Mission 6
-      </a><br>
+      <label>
+        <input name="missionNumber" type="radio" />
+        <span>Mission 4</span>
+      </label>
+      <br>
+      <label>
+        <input name="missionNumber" type="radio" />
+        <span>Mission 5</span>
+      </label>
+      <br>
+      <label>
+        <input name="missionNumber" type="radio" />
+        <span>Mission 6</span>
+      </label>
     </div>
   </div>
 </div>

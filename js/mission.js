@@ -12,7 +12,7 @@
       var missionID = getUrlParameter('json');
       // grab json and parse it in to 'mission' variable
       var jsonFetch = $.getJSON("./missionJSON/"+missionID+".json");
-      mission = JSON.parse(jsonFetch.responseText);
+      mission = jsonFetch.responseJSON;
     }
 
       // gets url paramater of the json id

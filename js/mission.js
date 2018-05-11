@@ -11,7 +11,7 @@
     function getMissionData(){
       var missionID = getUrlParameter('json');
       // grab json and parse it in to 'mission' variable
-      var jsonFetch = $.getJSON("../missionJSON/"+missionID+".json");
+      var jsonFetch = $.getJSON("./missionJSON/"+missionID+".json");
       mission = JSON.parse(jsonFetch.responseText);
     }
 
@@ -24,7 +24,7 @@
 
       for (i = 0; i < sURLVariables.length; i++) {
           sParameterName = sURLVariables[i].split('=');
-          
+
           if (sParameterName[0] === sParam) {
               return sParameterName[1] === undefined ? true : sParameterName[1];
           }

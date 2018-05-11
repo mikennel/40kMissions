@@ -9,28 +9,26 @@
     }
 
     function getMissionData(){
-      var missionID = getUrlParamater('json');
+      var missionID = getUrlParameter('json');
       // grab json and parse it in to 'mission' variable
       var jsonFetch = $.getJSON("../missionJSON/"+missionID+".json");
       mission = JSON.parse(jsonFetch.responseText);
     }
 
-    function getUrlParamater(){
       // gets url paramater of the json id
-      var getUrlParameter = function getUrlParameter(sParam) {
-        var sPageURL = decodeURIComponent(window.location.search.substring(1)),
-            sURLVariables = sPageURL.split('&'),
-            sParameterName,
-            i;
+    function getUrlParameter(sParam) {
+      var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+          sURLVariables = sPageURL.split('&'),
+          sParameterName,
+          i;
 
-        for (i = 0; i < sURLVariables.length; i++) {
-            sParameterName = sURLVariables[i].split('=');
-
-            if (sParameterName[0] === sParam) {
-                return sParameterName[1] === undefined ? true : sParameterName[1];
-            }
-        }
-      };
+      for (i = 0; i < sURLVariables.length; i++) {
+          sParameterName = sURLVariables[i].split('=');
+          
+          if (sParameterName[0] === sParam) {
+              return sParameterName[1] === undefined ? true : sParameterName[1];
+          }
+      }
     }
 
     function populateData(){

@@ -11,7 +11,7 @@
     function getMissionData(){
       var missionID = getUrlParamater('json');
       // grab json and parse it in to 'mission' variable
-      var jsonFetch = $.getJSON("./missionJSON/"+missionID+".json");
+      var jsonFetch = $.getJSON("../missionJSON/"+missionID+".json");
       mission = JSON.parse(jsonFetch.responseText);
     }
 

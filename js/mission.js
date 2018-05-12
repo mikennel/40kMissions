@@ -4,6 +4,7 @@
     var mission;
 
     function init (){
+      $('.carousel').carousel();
       getMissionData();
     }
 

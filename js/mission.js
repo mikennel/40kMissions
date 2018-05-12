@@ -31,6 +31,15 @@
       for (i in mission.battlefield){
         $('#missionBattlefield').append("<li class='collection-item listItem'>"+mission.battlefield[i]+"</li>");
       }
+      for (i in mission.deployment){
+        $('#missionDeployment').append("<li class='collection-item listItem'>"+mission.deployment[i]+"</li>");
+      }
+      for (i in mission.victory.primary){
+        $('#missionVictoryPrimary').append("<li class='collection-item listItem'>"+mission.victory.primary[i]+"</li>");
+      }
+      for (i in mission.victory.secondary){
+        $('#missionVictorySecondary').append("<li class='collection-item listItem'>"+mission.victory.secondary[i]+"</li>");
+      }
     }
 
 })();

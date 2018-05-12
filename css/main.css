@@ -17,3 +17,9 @@ h2{
 .startMissionBtn{
   height: 3.5em !important;
 }
+
+/* mission page */
+
+.nav{
+  margin-top: 1em;
+}

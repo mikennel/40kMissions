@@ -29,17 +29,34 @@
       $('#missionTitle').html(mission.title);
       // populate battlefield data
       for (i in mission.battlefield){
-        $('#missionBattlefield').append("<li class='collection-item listItem'>"+mission.battlefield[i]+"</li>");
+        if (i > 0){
+          $('#missionBattlefield').append("<div class='listBorder col s6 offset-s3'></div>");
+        }
+        $('#missionBattlefield').append("<div class='col s12 listItem'>"+mission.battlefield[i]+"</div>");
       }
       for (i in mission.deployment){
-        $('#missionDeployment').append("<li class='collection-item listItem'>"+mission.deployment[i]+"</li>");
+        if (i > 0){
+          $('#missionDeployment').append("<div class='listBorder col s6 offset-s3'></div>");
+        }
+        $('#missionDeployment').append("<div class='col s12 listItem'>"+mission.deployment[i]+"</div>");
       }
       for (i in mission.victory.primary){
-        $('#missionVictoryPrimary').append("<li class='collection-item listItem'>"+mission.victory.primary[i]+"</li>");
+        if (i > 0){
+          $('#missionVictoryPrimary').append("<div class='listBorder col s6 offset-s3'></div>");
+        }
+        $('#missionVictoryPrimary').append("<div class='col s12 listItem'>"+mission.victory.primary[i]+"</div>");
       }
-      for (i in mission.victory.secondary){
-        $('#missionVictorySecondary').append("<li class='collection-item listItem'>"+mission.victory.secondary[i]+"</li>");
+      if (mission.victory.secondary.length > 0){
+        for (i in mission.victory.secondary){
+          if (i > 0){
+            $('#missionVictorySecondary').append(", ");
+          }
+          $('#missionVictorySecondary').append(mission.victory.secondary[i]);
+        }
+      } else{
+        $('#missionVictorySecondary').append("No secondary objectives.");
       }
+      $('#missionVictorySecondary').wrapInner("<div class='col s12 listItem'></div>");
     }
 
 })();

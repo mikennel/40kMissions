@@ -23,3 +23,35 @@ h2{
 .nav{
   margin-top: 1em;
 }
+
+#missionTitle{
+  text-align: center;
+  font-weight: bold;
+  font-size: 2em;
+}
+
+.sectionTitle{
+  font-weight: bold;
+}
+
+.carousel-item{
+  background-color: #3a5775;
+}
+
+.collection{
+  border: none;
+}
+
+.collection-item{
+  background-color: transparent!important;
+}
+
+.missionList{
+  font-size: .9em;
+  text-align: justify;
+}
+
+.listBorder{
+  margin: 1.5em 0 1.5em 0;
+  background-color: lightgrey;
+}

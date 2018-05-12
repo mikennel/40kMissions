@@ -5,30 +5,22 @@
 
     function init (){
       getMissionData();
-      populateData();
     }
 
     function getMissionData(){
-      var missionID = getUrlParameter('json');
+      var missionID = getUrlParameter();
       // grab json and parse it in to 'mission' variable
-      var jsonFetch = $.getJSON("./missionJSON/"+missionID+".json");
-      mission = jsonFetch.responseJSON;
+      var jsonFetch = $.getJSON("./missionJSON/"+missionID+".json", function(response){
+        mission = jsonFetch.responseJSON;
+        populateData();
+      });
     }
 
       // gets url paramater of the json id
-    function getUrlParameter(sParam) {
-      var sPageURL = decodeURIComponent(window.location.search.substring(1)),
-          sURLVariables = sPageURL.split('&'),
-          sParameterName,
-          i;
-
-      for (i = 0; i < sURLVariables.length; i++) {
-          sParameterName = sURLVariables[i].split('=');
-
-          if (sParameterName[0] === sParam) {
-              return sParameterName[1] === undefined ? true : sParameterName[1];
-          }
-      }
+    function getUrlParameter() {
+      var sPageURL = decodeURIComponent(window.location.search.substring(1));
+      var sParameterName = sPageURL.split('=');
+      return sParameterName[1];
     }
 
     function populateData(){

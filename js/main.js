@@ -2,11 +2,14 @@
   $( document ).ready(init());
 
     function init (){
-      $('#startMissionBtn').on("click", setMission());
+      $('#startMissionBtn').on("click", setMission);
     }
 
     function setMission(){
-      console.log("clicked a label");
+      var missionType = $('[name=missionType]:checked').data('jsoncode');
+      var missionSource = $('[name=missionSource]:checked').data('jsoncode');
+      var missionNumber = $('[name=missionNumber]:checked').data('jsoncode');
+      window.location.href = './mission?json='+missionType+missionSource+missionNumber;
     }
 
 })();

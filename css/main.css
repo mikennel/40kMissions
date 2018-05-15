@@ -10,6 +10,11 @@ h2{
   font-weight: bold;
 }
 
+#mainContainer{
+  max-width: 800px;
+  margin: auto;
+}
+
 .missionBtn{
   margin-bottom: 2em;
 }

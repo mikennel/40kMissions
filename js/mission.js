@@ -40,6 +40,15 @@
         }
         $('#missionDeployment').append("<div class='col s12 listItem'>"+mission.deployment[i]+"</div>");
       }
+      if (mission.specialRules){
+        $('#specialRulesCard').removeClass('hideMe');
+        for (i in mission.specialRules){
+          if (i > 0){
+            $('#missionSpecialRules').append("<div class='listBorder col s6 offset-s3'></div>");
+          }
+          $('#missionSpecialRules').append("<div class='col s12 listItem'>"+mission.specialRules[i]+"</div>");
+        }
+      }
       for (i in mission.victory.primary){
         if (i > 0){
           $('#missionVictoryPrimary').append("<div class='listBorder col s6 offset-s3'></div>");

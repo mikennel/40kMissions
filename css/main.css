@@ -43,7 +43,8 @@ h2{
 }
 
 .carousel-item{
-  background-color: #3a5775;
+  background-color: #424242;
+  overflow-y: scroll;
 }
 
 .collection{

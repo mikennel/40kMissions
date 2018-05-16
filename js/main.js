@@ -9,7 +9,7 @@
       var missionType = $('[name=missionType]:checked').data('jsoncode');
       var missionSource = $('[name=missionSource]:checked').data('jsoncode');
       var missionNumber = $('[name=missionNumber]:checked').data('jsoncode');
-      window.location.href = './mission?json='+missionType+missionSource+missionNumber;
+      window.location.href = './mission?json='+missionSource+"/"+missionType+missionNumber;
     }
 
 })();

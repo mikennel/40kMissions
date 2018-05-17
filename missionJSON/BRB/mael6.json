@@ -1,0 +1,19 @@
+{
+  "title":"Deadlock",
+  "battlefield":["Create the battlefield and set up terrain.",
+    "The players should roll off and, starting with whoever rolls highest, alternate placing objective markers until 6 (numbered 1-6) have been set up.",
+    "The objective markers can be located anywhere on the battlefield, as long as the centre of each is more than 12\" from the centre of any other objective marker and 6\" from the edge of the battlefield."
+  ],
+  "deployment":["The player who placed the sixth objective marker determines which of the <b>standard deployment maps</b> is used in the battle and picks one of the deployment zones on the map for their army.",
+  "Their opponent uses the other deployment zone.",
+  "Starting with the player who did <b><i>not</i></b> pick their deployment zone, the players then alternate deploying their units, one at a time.",
+  "A player’s models must be set up within their own deployment zone. Continue setting up units until both sides have set up their army."
+  ],
+  "specialRules":["Tactical Objectives: “This mission uses Tactical Objectives. Each player generates 6 Tactical Objectives at the start of their first turn. In the second battle round, players may have 5 active Tactical Objectives, in the third battle round they may have 4, and so on. If a player has too many active Tactical Objectives at the start of their turn, they must discard Tactical Objectives until they have the correct number. If a player has fewer than the correct number of Tactical Objectives at the start of their turn, they must generate Tactical Objectives until they have the correct number.",
+    "Strategic Deadlock: From the start of the third battle round, the Command Point cost of all Stratagems used by players is doubled."
+  ],
+  "victory":{
+    "primary":["Tactical Objectives"],
+    "secondary":["Slay the Warlord","First Blood","Linebreaker"]
+  }
+}

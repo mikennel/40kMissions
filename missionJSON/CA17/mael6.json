@@ -1,0 +1,21 @@
+{
+  "title":"Recon",
+  "battlefield":["Create the battlefield and set up terrain.",
+    "Each player divides their army into three forces, with as equal a <i>number of units</i> in each as possible, before rolling a D3 to randomly select one. This is the player’s <b>Starting Force</b>. If a player has less than three units, randomly select a unit to be the Starting Force",
+    "The players should roll off and, starting with whoever rolls highest, alternate placing objective markers until 6 (numbered 1-6) have been set up.",
+    "The objective markers can be located anywhere on the battlefield, as long as the centre of each is more than 12\" from the centre of any other objective marker and 6\" from the edge of the battlefield."
+  ],
+  "deployment":["The player who placed the sixth objective marker determines which of the <b>standard deployment maps</b> is used in the battle and picks one of the deployment zones on the map for their army.",
+  "Their opponent uses the other deployment zone.",
+  "Starting with the player who did <b><i>not</i></b> pick their deployment zone, the players alternate deploying their <b>Starting Force</b> units, one at a time.",
+  "A player’s models must be set up within their own deployment zone. Continue setting up units until both sides have set up their army."
+  ],
+  "specialRules":["Tactical Objectives: If, at the start of a player’s turn, they have fewer than 3 active Tactical Objectives, they must generate Tactical Objectives until they have 3.",
+    "Reserve Forces: Any unit not set up at the start of the battle starts the game in Reserve. At the end of your first Movement phase, roll a D6 for each of your units in Reserve. On a 3+ that unit is set up wholly within your deployment zone and wholly within 6\" of any battlefield edge."
+  ],
+  "victory":{
+    "primary":["Tactical Objectives",
+    "No Quarter Given: Each player scores 1 victory point for each enemy unit that is destroyed. This is in addition to the victory points you can score for secondary objectives"],
+    "secondary":["Slay the Warlord","First Blood","Linebreaker"]
+  }
+}

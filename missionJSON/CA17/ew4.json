@@ -11,7 +11,7 @@
   ],
   "victory":{
     "primary":["Dominate the Battlefield: Each player scores 1 victory point at the end of each of their turns for each objective marker they control. A player controls an objective marker if they have more models within 3\" of the centre of it than their opponent does.",
-      "No Quarter Given: Each player scores 1 victory point for each enemy unit that is destroyed. “This is in addition to the 1 victory point you can score for secondary objectives"],
+      "No Quarter Given: Each player scores 1 victory point for each enemy unit that is destroyed. This is in addition to the victory points you can score for secondary objectives"],
     "secondary":["Slay the Warlord","First Blood","Linebreaker"]
   }
 }

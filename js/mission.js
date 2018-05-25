@@ -41,15 +41,14 @@
         $('#missionDeployment').append("<div class='col s12 listItem'>"+mission.deployment[i]+"</div>");
       }
       if (mission.specialRules){
-        $('#specialRulesCard').removeClass('hideMe');
-        $('#specialRulesCard').attr('href', '#three!');
-        $('#missionVictoryCard').attr('href', '#four!');
         for (i in mission.specialRules){
           if (i > 0){
             $('#missionSpecialRules').append("<div class='listBorder col s6 offset-s3'></div>");
           }
           $('#missionSpecialRules').append("<div class='col s12 listItem'>"+mission.specialRules[i]+"</div>");
         }
+      } else {
+        $('#missionSpecialRules').append("<div class='col s12'>There are no special rules for this mission</div>")
       }
       for (i in mission.victory.primary){
         if (i > 0){

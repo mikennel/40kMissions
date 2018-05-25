@@ -1,0 +1,21 @@
+{
+  "title":"Roving Patrol",
+  "battlefield":["Create the battlefield and set up terrain.",
+    "Each player divides their army into three forces, with as equal a <i>number of units</i> in each as possible, before rolling a D3 to randomly select one. This is the player’s <b>Starting Force</b>. If a player has less than three units, randomly select a unit to be the Starting Force",
+    "The players roll off and the winner determines which of the <b>standard deployment maps</b> is used in the battle and picks one of the deployment zones on the map for their army.",
+    "Their opponent uses the other deployment zone.",
+    "The players then place one objective marker at the centre of the battlefield.",
+    "Then, starting with the player who determined the deployment map, the players each place one more objective marker in their deployment zone and more than 6\" from any battlefield edge"
+  ],
+  "deployment":["Starting with the player who placed the third objective marker, the players alternate deploying their <b>Starting Force</b> units, one at a time.",
+  "A player’s models must be set up within their own deployment zone. Continue setting up units until both sides have set up their army."
+  ],
+  "specialRules":["Reserve Forces: Any unit not set up at the start of the battle starts the game in Reserve. At the end of your first Movement phase, roll a D6 for each of your units in Reserve. On a 3+ that unit is set up wholly within your deployment zone and wholly within 6\" of any battlefield edge.",
+    "Units with abilities such as ‘Teleport Strike’ that allow them to arrive elsewhere may use these. If a unit is embarked within a TRANSPORT, they will arrive when their transport does (make one roll for the transport and the units inside).",
+    "At the end of your second Movement phase, all of your units still in Reserve automatically arrive, and are set up as described above"
+  ],
+  "victory":{
+    "primary":["Take and Hold: At the end of the game, each objective marker is worth 3 victory points to the player who controls it. A player controls an objective marker if they have more models within 3\" of the centre of it than their opponent does."],
+    "secondary":["Slay the Warlord","First Blood","Linebreaker"]
+  }
+}

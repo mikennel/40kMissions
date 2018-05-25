@@ -1,0 +1,18 @@
+{
+  "title":"Ascension",
+  "battlefield":["Create the battlefield and set up terrain.",
+    "The players roll off and the winner determines which of the <b>standard deployment maps</b> is used in the battle and picks one of the deployment zones on the map for their army.",
+    "Their opponent uses the other deployment zone.",
+    "The players then place one objective marker at the centre of the battlefield.",
+    "Then, starting with the player who determined the deployment map, the players each place one more objective marker; these can be set up anywhere on the battlefield so long as the centre of the marker is <i>exactly</i> 18\" from the centre of the battlefield, at least 12\" from both players’ deployment zones and more than 12\" from the centre of any other objective marker"
+  ],
+  "deployment":["Starting with the player who placed the third objective marker, the players alternate deploying their units, one at a time.",
+  "A player’s models must be set up within their own deployment zone. Continue setting up units until both sides have set up their army."
+  ],
+  "victory":{
+    "primary":["Ascend: Each player scores 1 victory point at the end of each of their turns for each objective marker they control. A player controls an objective marker if they have more models within 3\" of the centre of it than their opponent does.",
+      "However, if only one player has any <b>CHARACTERS</b> within 3\" of the centre of an objective marker, they control it regardless of the number of nearby enemy models.",
+      "Furthermore, if a character controls the same objective marker for more than one of their turns consecutively, the number of victory points scored is increased; score 2 victory points at the end of your turn for an objective marker that has been controlled by the character for two of their turns consecutively, 3 victory points if it has been controlled by the character for three of their turns consecutively and so on."],
+    "secondary":["Slay the Warlord","First Blood","Linebreaker"]
+  }
+}

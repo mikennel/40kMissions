@@ -42,6 +42,8 @@
       }
       if (mission.specialRules){
         $('#specialRulesCard').removeClass('hideMe');
+        $('#specialRulesCard').attr('href', '#three!');
+        $('#missionVictoryCard').attr('href', '#four!');
         for (i in mission.specialRules){
           if (i > 0){
             $('#missionSpecialRules').append("<div class='listBorder col s6 offset-s3'></div>");
